@@ -28,7 +28,7 @@ const types = {
   bike: {
     image: 'bikeSm',
     imageLg: 'bikeLg',
-    text: 'Bike'
+    text: 'Food'
   }
 };
 

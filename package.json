@@ -1,14 +1,14 @@
 {
-  "name": "expo-uber",
+  "name": "ciiclo",
   "version": "0.0.1",
-  "description": "Uber: UI Clone with Expo",
+  "description": "Ciiclo: Ride and Food Delivery App",
   "author": "Caleb Nance",
   "license": "MIT",
   "keywords": [
     "expo",
     "react native",
     "react navigation",
-    "uber"
+    "ciiclo"
   ],
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
