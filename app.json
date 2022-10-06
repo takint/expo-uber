@@ -6,7 +6,11 @@
     "slug": "ciiclo",
     "privacy": "public",
     "version": "0.0.1",
-    "platforms": ["android", "ios"],
+    "platforms": [
+      "web",
+      "android",
+      "ios"
+    ],
     "githubUrl": "https://github.com/takint/expo-uber",
     "orientation": "portrait",
     "primaryColor": "#000000",
@@ -16,13 +20,22 @@
       "image": "src/assets/splash.png",
       "resizeMode": "contain"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
-      "versionCode": 1
+      "versionCode": 1,
+      "package": "com.takint.ciiclo"
     },
     "ios": {
       "buildNumber": "0.0.1",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.takint.ciiclo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4b5e1f6a-8e3c-49d1-b8bd-b414ced3f235"
+      }
     }
   }
 }

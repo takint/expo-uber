@@ -5,7 +5,7 @@ import { colors, device, fonts } from '../constants';
 // icons
 import SvgTruck from './icons/Svg.Truck';
 
-const WhereTo = () => (
+const WhereTo = ({navigation}) => (
   <View style={styles.container}>
     <View style={styles.containerBanner}>
       <Text style={styles.bannerText}>30% off, up to $6.00</Text>
@@ -16,7 +16,7 @@ const WhereTo = () => (
       <View style={styles.containerSquare}>
         <View style={styles.square} />
       </View>
-      <Text style={styles.text}>Where to?</Text>
+      <Text onPress={() => navigation.navigate('TripBooking')} style={styles.text}>Where to?</Text>
       <View style={styles.containerIcon}>
         <SvgTruck />
       </View>

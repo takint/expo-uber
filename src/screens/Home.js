@@ -148,7 +148,7 @@ const Home = ({ navigation }) => {
         visible={selectType}
       />
 
-      {type === 'car' && <WhereTo />}
+      {type === 'car' && <WhereTo navigation={navigation} />}
     </View>
   );
 };

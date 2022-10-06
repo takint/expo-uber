@@ -49,5 +49,22 @@ export default {
   pH4: { paddingHorizontal: 4 },
   pH8: { paddingHorizontal: 8 },
   pH16: { paddingHorizontal: 16 },
-  pH24: { paddingHorizontal: 24 }
+  pH24: { paddingHorizontal: 24 },
+
+  baseButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 32,
+    borderRadius: 4,
+    elevation: 3
+  },
+
+  buttonLabel: {
+    fontSize: 16,
+    lineHeight: 21,
+    fontWeight: 'bold',
+    letterSpacing: 0.25,
+    color: 'white'
+  }
 };
