@@ -8,8 +8,8 @@ import SvgTruck from './icons/Svg.Truck';
 const WhereTo = ({navigation}) => (
   <View style={styles.container}>
     <View style={styles.containerBanner}>
-      <Text style={styles.bannerText}>30% off, up to $6.00</Text>
-      <Text style={styles.bannerMuted}>3 days</Text>
+      <Text style={styles.bannerText}>Promotion comming soon!</Text>
+      <Text style={styles.bannerMuted}></Text>
     </View>
 
     <View style={styles.containerInput}>
