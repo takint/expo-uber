@@ -12,12 +12,15 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { TextInput } from 'react-native-gesture-handler';
 import { colors, device, fonts, gStyle } from '../constants';
 import { useState } from 'react';
+import { firebaseApp,appData, analytics } from '../../firebaseConfig';
 
 const TripBooking = ({ navigation }) => {
   const [pickedDateTime, setPickedDateTime] = useState(new Date(1598051730000));
   const [pickerMode, setPickerMode] = useState('date');
   const [showDate, setShow] = useState(false);
   const onSubmitPress = () => {};
+
+  console.log(appData);
 
   const showDateTimePicker = (mode) => {
     setPickerMode(mode);
