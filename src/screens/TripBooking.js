@@ -12,7 +12,7 @@ import DateTimePicker from '@react-native-community/datetimepicker';
 import { TextInput } from 'react-native-gesture-handler';
 import { colors, device, fonts, gStyle } from '../constants';
 import { useState } from 'react';
-import { addBooking } from '../../firebaseConfig';
+import { addBooking } from '../../firebaseUtil';
 
 const TripBooking = ({ navigation }) => {
   const [pickedDateTime, setPickedDateTime] = useState(new Date());
