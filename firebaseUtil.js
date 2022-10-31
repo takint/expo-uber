@@ -9,17 +9,7 @@ import {
   addDoc
 } from 'firebase/firestore';
 
-const firebaseConfig = {
-  apiKey: 'AIzaSyCwSbWdjYIHEypuYyQFS4os6crDeO1Vv2k',
-  authDomain: 'ciiclobackend.firebaseapp.com',
-  projectId: 'ciiclobackend',
-  storageBucket: 'ciiclobackend.appspot.com',
-  messagingSenderId: '273119135933',
-  appId: '1:273119135933:web:f566522d98a8f959934fd4',
-  measurementId: 'G-GPLLJVSEZR',
-  // The value of `databaseURL` depends on the location of the database
-  databaseURL: 'https://ciiclobackend-default-rtdb.firebaseio.com/'
-};
+const firebaseConfig = {};
 
 // Initialize Firebase
 const fireBaseApp = initializeApp(firebaseConfig);
@@ -40,16 +30,16 @@ async function getBooking() {
 }
 
 async function addBooking(bookingData) {
-  try {
-    const docRef = await addDoc(
-      collection(appData, 'booked-trips'),
-      bookingData
-    );
-    return docRef.id;
-  } catch (e) {
-    console.log(e);
-    return null;
-  }
+  // try {
+  //   const docRef = await addDoc(
+  //     collection(appData, 'booked-trips'),
+  //     bookingData
+  //   );
+  //   return docRef.id;
+  // } catch (e) {
+  //   console.log(e);
+  //   return null;
+  // }
 }
 
 export { fireBaseApp, analytics, getBooking, addBooking };
