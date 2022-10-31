@@ -103,12 +103,12 @@ const Home = ({ navigation }) => {
       {type === 'bike' && (
         <View style={styles.rightContainer}>
           <View style={styles.icons}>
-            <TouchIcon
+            {/* <TouchIcon
               icon={<SvgQRCode />}
               iconSize={20}
               onPress={() => navigation.navigate('ModalQRCode')}
               style={[styles.icon, styles.iconQRCode]}
-            />
+            /> */}
             <TouchIcon
               icon={<SvgCheckShield />}
               iconSize={20}
